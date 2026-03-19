@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"/mnt/c/Users/yes21/Desktop/_LV.UP/_LEVEL_UP/PROJECT/[ScreenGuard]\\\" && \\\\\\ngit init && \\\\\\ngit checkout -b main && \\\\\\ngit add . && \\\\\\ngit commit -m \\\"feat: ScreenGuard - 스크린타임 추적 + ...",
+  "error": "Exit code 128\nReinitialized existing Git repository in /mnt/c/Users/yes21/Desktop/_LV.UP/_LEVEL_UP/PROJECT/[ScreenGuard]/.git/\nfatal: a branch named 'main' already exists",
+  "timestamp": "2026-03-19T16:28:49.441Z",
+  "retry_count": 1
+}

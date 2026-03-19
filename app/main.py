@@ -11,7 +11,7 @@ from apscheduler.triggers.interval import IntervalTrigger
 
 from app.config import get_settings
 from app.database import init_db
-from app.routers import news, users
+from app.routers import news, users, trending
 
 # 로깅 설정
 logging.basicConfig(
@@ -43,6 +43,7 @@ app.add_middleware(
 # 라우터 등록
 app.include_router(news.router)
 app.include_router(users.router)
+app.include_router(trending.router, prefix="/api/v1")
 
 # APScheduler 인스턴스
 scheduler = AsyncIOScheduler()
